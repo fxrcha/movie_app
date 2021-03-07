@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Potato from './Potato';
 
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <h1>Hello</h1>
+      <Potato />
     </div>
   );
 }
