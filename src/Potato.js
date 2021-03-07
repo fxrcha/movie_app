@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Potato = ({ fav }) => {
+const Potato = ({ name, image }) => {
     return (
-        <h3>I love {fav}!</h3>
+        <div>
+            <h3>I like {name}!</h3>
+            <img src={image} style={{ width: 600 }} />
+        </div>
     )
 }
 
