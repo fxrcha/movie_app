@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <h1>Hello</h1>
-      <Potato />
+      <Potato fav="kimchi" />
+      <Potato fav="ramen" />
+      <Potato fav="samgiopsal" />
     </div>
   );
 }
